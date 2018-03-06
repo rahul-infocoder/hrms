@@ -1,0 +1,48 @@
+
+h1, h2, h3, h4, h5, h6 {
+font-weight: 300;
+margin:0;
+padding:0;
+}
+.slip {
+  position: absolute;
+  right: 0px;
+  top: 80px;
+  width:150px;
+  -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+	display:none;
+}
+.row-fluid{
+	float:left;
+	width:98% ;
+	padding-left:2%;
+}
+.main{
+	padding:20px;
+	margin:0 auto;
+	position:relative;
+}
+.span6{
+	width:50%;
+	display:inline-block;
+	float:left;
+	padding:2px 0;
+}
+
+.span8{
+	width:75%;
+	display:inline-block;
+	float:left;
+	padding:2px 0;
+}
+.span2{
+	width:25%;
+	display:inline-block;
+	float:left;
+	padding:2px 0;
+}
+	

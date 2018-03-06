@@ -1,0 +1,151 @@
+ul.autolist {
+  float: none;
+  left: 0;
+  list-style: none outside none;
+  margin: 0;
+  padding-left: 10px;
+  position: absolute !important;
+  width:auto;
+/*  padding:10px 5px 10px 5px;*/
+  display:inline-block;
+  z-index: 2147483647;
+}
+
+
+ul.autolist li {
+	float:none;
+	}
+ul.autolist li[id="notClick"] {
+  background-color: red;
+  font-weight:bold;
+}
+ul.autolist li[id="notClick"]:hover{
+	cursor:not-allowed;
+	background-color:red;
+	font-weight:bold;
+	color:#fff;
+	
+	
+}
+ul.autolist li a {
+	color:#fff;
+	width:auto;
+	line-height:30px;
+	background-color:#4B8DF8;
+	color:#fff;
+	border-bottom:1px solid #fff;
+	padding-left:10px;
+	cursor:pointer;
+	padding-right:10px;
+	display:inline-block;
+	height:auto;
+	word-break:break-all;
+	width:300px;
+	white-space:nowrap;
+}
+ul.autolist li a:hover{
+	background-color:#BFD5FA;
+	color:#004040;
+	}
+	ul.autolist li a:focus{
+		background-color:red !important;
+	}
+
+ul.autolist li.selected{
+	background-color:#BFD5FA;
+	color:#004040;
+	}
+
+
+
+div.ResultParents{
+	width:auto;
+	background-color:#4B8DF8;
+	color:#fff;
+	position:relative;
+	padding-left:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+	border-top:1px solid #fff;
+	display:inline-block;
+	margin-right:2px;
+	padding-right:25px;
+	
+}
+
+.removeName
+{
+	position:absolute;
+
+	right:5px;
+	color:#fff;
+	display:block;
+	cursor:pointer;
+	font-size:8px;
+	top:-4px;
+	
+	}
+
+
+.loadImage
+{
+	position: absolute;
+    right: 25px;
+    top: 15px;
+	
+}
+
+.txtbox{
+	width:auto !important;
+	border:none !important;
+	float:left;
+}
+
+ul.autolist li a:focus{
+    background: blue !important;
+	border:none !important;
+}
+
+
+/*Text Box Style */
+
+ul.autoBoxCover {
+	list-style:none;
+	margin:0;
+	padding:0px;
+	min-height:30px;
+	height:auto;
+	width:100%;
+	float:left;
+	border:1px solid #ccc;
+}
+ul.autoBoxCover li {
+	width:auto;
+	padding:5px 10px;
+	background-color:#4B8DF8;
+	color:#fff;
+	float:left;
+	display:inline-block;
+	position:relative;
+	margin:2px 2px;
+	
+}
+ul.autoBoxCover li.match{
+	background-color:#800000;
+}
+ul.autoBoxCover li.slected{
+	 background:#004080;
+}
+
+ul.autoBoxCover li#TextBoxField{
+	background:none !important;
+	margin:0 !important;
+	padding:0 !important;
+}
+.ui-state-focus
+{
+    color:White !important;
+    background:#004080  !important;
+    outline:none !important;
+	border:none !important;
+}

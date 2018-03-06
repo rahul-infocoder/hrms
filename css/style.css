@@ -1,0 +1,113 @@
+/*	
+	Document   : style.css
+	Author     : Eliza Witkowska (http://codebusters.pl/en/)
+	Description: Stylesheet for CodeIgniter frontend language files editor.
+*/
+
+.global_company div:nth-child(1) {
+  float: left;
+  line-height: 30px;
+  margin-right: 10px;
+}
+.global_company {
+  margin-top: 10px;
+}
+
+
+.pagination a{
+	display:inline-block;
+	background-color: #35AA47;
+    color: #FFFFFF;
+    text-shadow: none;
+	padding:2px 7px 2px 7px;
+}
+.pagination strong{
+	display:inline-block;
+	background-color:#ddd;
+    color: #fff;
+    text-shadow: none;
+	padding:2px 7px 2px 7px;
+}
+
+#msgTable_info{
+	display:none;
+}
+
+.box-Custom{
+	width:25%;
+    height:200px;
+	background-color:#fafafa;
+	margin:10px;
+	display:inline-block;
+	clear:both;
+	border:1px solid #b4cef8;
+	position:relative;
+/*	float:left;*/
+	
+}
+.box-Custom .inner_custom{
+	float:left;
+	width:98%;
+	height:155px;
+	overflow-y:auto;
+	
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-right:2%;
+
+	
+	}
+.box-Custom h1{
+	width:100%;
+	height:25px;
+	border-bottom:1px solid #fafafa;
+
+	line-height:25px;
+	color:#fff;
+	font-weight:bold;
+	font-size:14px;
+	float:left;
+	text-align:center;
+	background-color:#4b8df8;
+	margin:0;
+	
+	
+
+}
+.custom-cover{
+	width:100%;
+	height:auto;
+}
+.inner_custom ul {
+	width:100%;
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+	list-style:none;
+}
+.inner_custom ul li{
+	float:none;
+	margin-top:2px;
+	margin-bottom:2px;
+	height:auto;
+	line-height:22px;
+	padding-left:10px;
+	padding-right:10px;
+	word-break:break-all;
+	border-bottom: 1px dashed #4b8df8;
+}
+.left{	
+float: left;  
+  width: 50%;
+  position: relative;
+  }
+  .right{	
+  float: left;	
+  width: 50%;
+  }
+ .count{
+ text-align:center;
+}
+.left1{	
+  width: 50%; 
+}
