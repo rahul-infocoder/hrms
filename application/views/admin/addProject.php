@@ -42,7 +42,8 @@
 
             
 				<!-- <div class="col-sm-12"> -->
-					<form name="proAdmin" method="post" enctype="multipart/form-data" action="<?php echo base_url();?>admin/insert_project" onsubmit="return validateForm()">
+				<?php echo form_open_multipart('admin/insert_project','name="proAdmin" onsubmit="return validateForm()"');?>
+					<!--<form name="proAdmin" method="post" enctype="multipart/form-data" action="<?php //echo base_url();?>admin/insert_project" onsubmit="return validateForm()">-->
 					  
 					 <!--  <h3 style="text-align:center;"> OR </h3> -->
 					  <p style="font-weight:bold;">ADD PROJECT </p>
@@ -137,7 +138,8 @@
 									<button type="submit" class="btn btn-primary btn-block">Register</button>
 								</div>
 							</div>
-					</form>
+					<!--</form>-->
+					<?php echo form_close();?>
 				<!-- </div> -->
 
             </div>

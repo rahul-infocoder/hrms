@@ -10,12 +10,15 @@ class Add_Project_Model extends CI_Model{
 	public function insert_project(){
 		// $new_name = time().$_FILES["userfile"]['name'];
 	$insert=array(
-	"title"=>$_POST['title'],
-	"description"=>$_POST['des'],
-	"priority"=>$_POST['priority'],
-	"due_date"=>$_POST['dueDate']
+	"title"=>htmlspecialchars($_POST['title'], TRUE),
+	"description"=>htmlspecialchars($_POST['des'], TRUE),
+	"priority"=>htmlspecialchars($_POST['priority'], TRUE),
+	"due_date"=>htmlspecialchars($_POST['dueDate'], TRUE)
 	//"file"=>$new_name
 	);
+	//$xss_data = $this->security->xss_clean($insert);
+	//echo xss_clean($insert);
+	//print_r($insert);exit;
 	$res=$this->db->insert("add_project",$insert);
 	$insert_id=$this->db->insert_id();
 	//print_r($res);
