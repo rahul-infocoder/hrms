@@ -111,6 +111,9 @@ span#cd_status {
     margin-left: 250px;
     padding-left: 250px;
 }
+ul.breadcrumb li:last-child {
+    display: none;
+}
 </style>
 <!-- END PAGE HEADER--> 
 <!-- BEGIN PAGE CONTENT-->

@@ -116,6 +116,9 @@ span#cd_status {
 .custom-cover{
 	overflow: hidden;
 }
+ul.breadcrumb li:last-child {
+    display: none;
+}
 </style>
 <!-- END PAGE HEADER--> 
 <!-- BEGIN PAGE CONTENT-->
